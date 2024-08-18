@@ -6,11 +6,11 @@ import pkg from "./package.json";
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: "/remoteA",
+  base: "/remoteB",
   plugins: [
     react(),
     federation({
-      name: "remote_a",
+      name: "remote_b",
       filename: "remoteEntry.js",
       exposes: {
         "./App": "./src/App",

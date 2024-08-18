@@ -6,10 +6,11 @@ import './index.css'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <BrowserRouter basename="remoteA">
 
+    <BrowserRouter>
+    
       <App />
-      
+    
     </BrowserRouter>
   </StrictMode>,
 )
